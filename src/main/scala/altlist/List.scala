@@ -115,14 +115,7 @@ object List {
     }
   }
 
-  type blist = List[B]
-  def flatmap_i[A,blist] (xs:List[A])( f:A=>blist) : List[blist] = {
-    map(xs)(f)
-
-  }
-
-  def flatmap(xs:List[blist]):List[B] = {
+  
 
 
-  }
 }
